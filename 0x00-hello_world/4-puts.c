@@ -1,9 +1,8 @@
 #include<stdio.h>
-/**
- * main is the entry point
- *
- * always return 0 to be sure of script success
- */
+
+//main is the entry point
+// always return 0 to be sure of script success
+ 
 
 int main(void)
 {
