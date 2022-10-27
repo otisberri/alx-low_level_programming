@@ -8,8 +8,8 @@
 char *rot13(char *s)
 {
 	int count = 0, i;
-	char alphabet[] = "aaamnjvahbfnbjzjnjzhjjnjbjfajgjABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	char rot13[] = "qrstujbdhbjhdgbjfbhjjsjklmNOPQRSTUVWXYZAYUDSBJKRHBSUBJFVJKLM";
+	char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char rot13[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
 	while (*(s + count) != '\0')
 	{
